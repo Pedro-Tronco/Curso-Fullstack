@@ -1,0 +1,28 @@
+.inline {
+    /* mantém na mesma linha, não aceita modificação vertical */
+    display: inline;
+    padding: 10px;
+    margin: 20px;
+    border: #000000 solid 2px;
+    background-color: #d3d3d3;
+}
+
+.block {
+    /* quebra linha, aceita modificação vertical */
+    display: block;
+    width: fit-content;
+    padding: 10px;
+    margin: 20px;
+    border: #000000 solid 2px;
+    background-color: #d3d3d3;
+}
+
+.inline-block {
+    /* não quebra linha, mas permite modificação vertical */
+    display: inline-block;
+    width: fit-content;
+    padding: 10px;
+    margin: 20px;
+    border: #000000 solid 2px;
+    background-color: #d3d3d3;
+}

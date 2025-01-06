@@ -1,0 +1,66 @@
+body {
+    background-color: #212153;
+}
+
+/* Seletor Universal '*' (seleciona todos os elementos) */
+* {
+    color: #ffffff;
+    margin: 0px;
+    padding: 0px;
+}
+
+/* Seletor de tag '.tag' */
+header, footer {
+    background-color: #15152c;
+    padding: 20px;
+}
+
+/* Seletor de elementos aninhados 'seção elemento' */
+nav a {
+    color: #37b6a9;
+}
+
+/* Seletor de Filhos */
+form > input {
+    display: block;
+    color: #000000;
+    margin: 10px;
+}
+
+/* Seletor de Classes */
+.laranja {
+    color: #ffa500;
+}
+
+.verde {
+    color: #008000;
+}
+
+/* Seletor de ID */
+#secao-principal {
+    margin: 15px;
+    padding: 2px;
+    text-align: center;
+    border: 2px dashed #000000;
+}
+
+/* Seletor de Propriedade */
+input[name=password] {
+    background-color: #808080;
+}
+
+input[name=email] {
+    background-color: #00ffff;
+}
+
+/* Seletor Mútliplo */
+#secao-principal > * {
+    text-align: left;
+    margin: 5px;
+    padding: 5px;
+}
+
+/* Seletor de Sequência */
+h2 + p {
+    color: blue;
+}
